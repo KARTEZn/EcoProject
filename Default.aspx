@@ -9,8 +9,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+    <div>
+        Select File &nbsp;<asp:FileUpload ID="FileUploader" runat="server" /><br />
+        <br />
+        <asp:Button ID="UploadButton" runat="server" Text="Upload" OnClick="UploadButton_Click" /><br />
+        <br />
+         <asp:Label ID="Label1" runat="server"></asp:Label><br /> 
+</div>
     </form>
 </body>
 </html>
